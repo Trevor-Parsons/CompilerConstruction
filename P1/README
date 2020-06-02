@@ -1,0 +1,12 @@
+FSA Table and Driver
+Trevor Parsons
+
+Note: FSA Table is located in: scanner.cpp
+
+Description:
+This program reads from either a file or command line input and determines which tokens are
+present in the input. It will iterate over the entire file, skipping whitespace, end of line,
+and comment (%) strings. An FSA table is used to look up the state and then a token is found
+that corresponds with that state. Note that the FSA table is described in detail in scanner.cpp,
+and does not include specific keyword or operator states. For keywords and operators, a lookup
+is done after the token is read to determine the specific keword or operator found.

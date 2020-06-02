@@ -1,0 +1,12 @@
+Token Parser
+Trevor Parsons
+
+=Description=
+This program builds on the scanner that was produced in the previous project. The scanner funciton has been modified to produce only one token from the input file, which are passed sequentially to the parser function. The parser funciton determines if the input tokens are valid with the specified grammar, returning a parse tree if they are, and an error if they are not.
+
+NOTE: The program will print the parse tree with our without errors to show where in the tree the errors were generated.
+
+=Running Instrucitons=
+Invocaiton: frontEnd [InputFileName]
+
+Can also be run with console input if a file name is not specified. When the user is done inputting text to the console, then they should finish the input with ctrl+d to run the parser. 

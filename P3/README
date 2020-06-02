@@ -1,0 +1,21 @@
+Identifier checker
+Trevor Parsons
+
+=Description=
+This Program build on the previous project by adding error checking for 
+undeclared or redeclared identifiers. If an undeclared identifier is used by 
+the program, the parser function will generate an appropriate error. 
+Similarly, if a variable has already been delcared and then is declared again,
+ the parser function will generate an appropriate error.
+
+!NOTE: Because it was specified in the description for P2 (previous project), 
+the tree printing function has been commented out. To enable the tree to be 
+printed, uncomment out the line containing "printTree(root, 0);" located at 
+the bottom of the main() function in main.cpp.
+
+=Running Instrucitons=
+Invocaiton: statSem [InputFileName]
+
+Can also be run with console input if a file name is not specified. When the 
+user is done inputting text to the console, then they should finish the input 
+with ctrl+d to run the parser. 

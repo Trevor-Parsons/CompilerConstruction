@@ -1,0 +1,17 @@
+Assembly Code Generator
+Trevor Parsons
+
+=Description=
+This program compiles code using the course grammar, generates a parse tree,
+and creates assmbly code that can be run on the virtMach program.
+
+The assembly code output can be found in a generated X.asm file, where X
+is the name of the inputfile that was used to generate the assembly code.
+
+!Note: The program should be working properly for all aspects of the grammar
+except absolute value. The '&' symbol from the grammar will not create any
+compiler errors, but the absolute value of the number or identifier that it
+preceeds will not be calculated.
+
+=Running Instrucitons=
+Invocaiton: compile [InputFileName]
